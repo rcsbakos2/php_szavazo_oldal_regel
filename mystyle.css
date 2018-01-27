@@ -1,0 +1,806 @@
+.lista{
+	
+	margin-left:-5%;
+	witdh:700%;
+	margin-bottom:5%;
+	margin-top:-5%;
+	
+	
+}
+.lista_a{
+	margin-left:40%;
+	margin-top:-15%;
+	witdh:1000%;
+	display:none;
+	
+}
+.btn_valasztastorlese{
+	margin-top:2%;
+	margin-bottom:5%;
+	margin-left:25%;
+	background-color:white;
+	border:2px solid silver;
+	
+}
+.gomb_admin{
+		
+		background:white;
+		color:black;
+		border:2px solid green;
+		padding: 3% 27%;
+		margin-top:100%;
+		
+	}
+.a_kij_x{
+		
+		background:white;
+		color:black;
+		border:2px solid silver;
+		padding: 3% 27%;
+		margin-top:100%;
+		
+	}
+	.a_kij{
+		margin-top:7.5%;
+		background:white;
+		color:black;
+		border:2px solid silver;
+		padding: 3% 25%;
+		
+		
+		
+		
+	}
+	.a_kij:hover, .btn_kij:hover,.a_kij_x:hover,.gomb_admin:hover{
+			color:black;
+		 transition: 0.5s;
+		text-decoration: none;
+		box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+		
+	}
+	.btn_kij{
+		margin-top: 7.5%;
+		width:95%;
+		background:white;
+		color:black;
+		border:2px solid silver;
+		
+		
+		
+	}
+	.btn_szavazas{
+		height:50%;
+		margin-top: 7.5%;
+		width:40%;
+		background:white;
+		color:black;
+		border:2px solid silver;
+		margin-bottom:3%;
+		
+		
+		
+	}
+.bejelentkezve{
+	display:none;
+	text-align:center;
+	margin-top:10%;
+	width:10%;
+	height:110%;
+	
+	
+	
+	
+	
+}
+
+	
+.button_login {
+	height:20%;
+	color:white;
+	width:15%;
+	background:rgb(136, 138, 147);
+	box-shadow:6px 6px 0 rgba(0,0,0,.5);
+	display:inline-block;
+	font-size:130%;
+	padding:.4em 1.5em; 
+	text-decoration:none;
+	margin-left:0.2%;
+	transform: skew(-20deg);
+}
+.button_reg {
+	  
+	  height:20%;
+	  color:white;
+	  width:20%;
+	  background:rgb(136, 138, 147);
+	  box-shadow:6px 6px 0 rgba(0,0,0,.5);
+	  display:inline-block;
+	  font-size:120%;
+	  padding:.5em 1.5em;
+	  text-decoration:none;
+	  margin-left:0.2%;
+	  transform: skew(-20deg);
+}
+
+.button_login:hover,.button_reg:hover {
+	color:black;
+	transition: 0.7s;
+}
+
+
+.skew-fix{
+  display:inline-block;
+  margin-top:5%;
+  transform: skew(20deg);
+	text-align:center;
+	
+}
+
+		
+		.title{
+		text-align:center;
+		
+		}
+		#parent #popup {
+		  display: none;
+		}
+
+		#parent:hover #popup {
+		  display: block;
+		  
+		}
+	.kozepen{
+	width:40%;
+	height:25%;
+	margin:0 auto;
+	line-height:200%;
+	background-color: gray;
+    margin-left:25%;
+	margin-top:15%;
+	border:2px outset white;
+	 position:absolute;
+	display:none;	
+	}
+	
+	
+	
+	.description {
+	opacity: .4;
+    display:none;
+    position:absolute;
+    border:1px outset #000;
+    width:100%;
+    height:100%;
+	 background-color:red;
+	} 
+	
+	
+	
+	
+	
+	
+	.kozepre{
+	text-align:center;
+	
+	
+	}
+	.jobbra{
+	margin-left:10%;
+	color:white;
+	}
+	.i_be{
+	
+	margin-top:2%;
+	border: none;
+	width:50%;
+	margin-left:14%;
+	 
+
+	}
+	.i_be:focus {
+	border: none;
+   
+    
+	}
+	.btn_kozepre{
+	border:2px solid red;
+	color:white;
+	background-color:black;
+	
+	
+	}
+	.hatter{
+	background-color:gray;
+	
+	width:60%;
+	height:25%;
+	margin:0 auto;
+	border:none;
+	margin-top:3%;
+	}
+	.iksz{
+	color:white;
+	background-color:black;
+	border:none;
+	}
+	.iksz:focus{
+	border:none;
+	}
+	body{width:100%;
+	height:100%;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	}
+
+	.btn_jobbra{
+	float:right;
+	background-color:gray;
+	border:none;
+	margin-right:2%;
+	font-size:150%;
+	margin-top:1%;
+	}
+	.bodyketto{
+	width:100%;
+	height:100%;
+	
+	}
+	.img_level{
+	margin-left:3%;
+	margin-top:-1%;
+	}
+	
+	.search-form{
+	margin-left:30%;
+	margin-top:3%;
+	}
+	.search-field, .search-submit{
+    margin:0;
+	 border:0.2px solid white;
+}
+
+.search-field + .search-submit{
+    
+    border-left:0px;
+   
+}
+.div-login-fejlec{
+	margin:0 auto;
+	margin-top:2%;
+	height:50%;
+	width:40%;
+	
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	border:3px solid rgb(35, 131, 175);
+	display:none;
+	background-color:white;
+	border-bottom:2px outset silver;
+	text-align:center;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.div-login{
+	margin:0 auto;
+	margin-top:0%;
+	height:50%;
+	width:40%;
+	
+	border:3px solid rgb(35, 131, 175);
+	display:none;
+	background-color:white;
+	border-top:none;
+	 box-shadow:6px 6px 0 rgba(0,0,0,.5);
+}
+.form-login{
+	margin-left:3%;
+	
+	
+}
+.input-felh{
+	
+	
+	border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
+	margin-top:1.5%;
+	margin-left:2%;
+	width:32.5%;
+	
+}
+.input-pw{
+	border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
+	width:32.5%;
+	margin-top:1.5%;
+	margin-left:2.7%;
+	
+}
+hr{
+	width:80%;
+	border:1px outset silver;
+	
+}
+.login-submit{
+	margin-top:2%;
+	margin-left:37%;
+	border:1px outset silver;
+	
+}
+.body_login{
+	
+	height:100%;
+	    background: url(kepek/bck.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	
+}
+.h1_login{
+	margin-left:0.5%;
+	color:white;
+	  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+	line-height:120%;
+	
+}
+.kikapcs{
+	
+	display:none;
+	}
+header{
+	background-color:rgb(107, 110, 114);
+	height:100%;
+	 border-bottom:2px solid silver;
+	
+}
+.div_mini{
+	
+	
+	margin-left:14%;
+	
+}
+.p_elfelejt{
+	margin:0 auto;
+	margin-bottom:2%;
+	width:70%;
+	font: bold 79%  sans-serif;
+	
+}
+.p_email{
+	width:70%;
+	font: bold 79%  sans-serif;
+	margin:0 auto;
+	
+}
+.pw_login{
+	font: bold 16px  sans-serif;
+	background-color:white;
+	border-bottom:none;
+	color:rgb(28, 71, 140);
+	
+}
+.pw_ff{
+	font: bold 16px  sans-serif;
+	background-color:white;
+	border:none;
+	color:rgb(28, 71, 140);
+	margin:0 auto;
+	width:70%;
+}
+.mini_submit{
+	border-left:0px;
+	
+	border:1px outset silver;
+}
+
+
+
+
+
+.mini_input_n_email, .mini_submit{
+    margin:0;
+	border:none;
+	line-height:150%;
+	margin-left:0%;
+	
+}
+
+.mini_input_n_email + .mini_submit{
+    
+    margin-left:0%;
+   
+}
+.form-mini-n-email{
+		margin:0 auto;
+	margin-bottom:2%;
+	width:100%;
+	font: bold 79%  sans-serif;
+	margin-left:-4%;
+		
+		
+		
+		display:none;
+}
+.green{color:rgb(43, 188, 55);
+	text-align:center;
+	font:bold 17px  sans-serif;
+	}
+	.p_kiemelve{
+		font:bold 17px  sans-serif;
+		text-align:center;
+		
+	}
+.div_mini_mini{
+	
+	margin-left:20%;
+	font: bold 15px  sans-serif;
+	
+}
+.div_mini_mini_sikertelen{
+	font:bold 17px  sans-serif;
+	margin-left:14%;
+	
+	
+}
+.mini_p_sikertelen{
+	
+	font:bold 17px  sans-serif;
+	margin-left:-12.5%;
+	
+}
+.login_sikeres_kep{
+	margin-left:0.4%;
+	margin-bottom:0.4%;
+	width:3%;
+	height:3%;
+}
+.login_kep_iksz{
+	
+	margin-bottom:0.4%;
+	width:4%;
+	height:4%;
+	margin-left:1.0%;
+}
+.change_kep_login{
+	
+	
+	width:25%;
+	height:25%;
+	
+}
+.login_img_zar{
+	
+	margin-bottom:0.4%;
+	width:4%;
+	height:4%;
+	margin-left:25%;
+}
+.login_img_nevtabla{
+	
+	margin-bottom:0.4%;
+	width:4%;
+	height:4%;
+	margin-left:25%;
+}
+.login_img_email_sikertelen{
+	
+	margin-bottom:0.4%;
+	width:4%;
+	height:4%;
+	margin-left:0.5%;
+}
+.login_img_email{
+	
+	margin-bottom:0.4%;
+	width:4%;
+	height:4%;
+	margin-left:1%;
+}
+.span_reg_fail{
+	height:110%;
+	text-align:center;
+	font: bold 15px  sans-serif;
+	margin-right:8%;
+	
+}
+.mini_label{
+	font: bold 15px  sans-serif;
+	
+	border:1px solid black;
+	margin-bottom:2%;
+	}
+	.mini_label-ketto{
+	font: bold 15px  sans-serif;
+	margin-left:2.0%;
+	border:1px solid black;
+	
+	margin-bottom:3%;
+	}
+.div_change{
+	
+	height:50%;
+	margin-left:30%;
+	margin-top:4.5%;
+	
+}
+.div-regisztracio-fejlec{
+	margin:0 auto;
+	margin-top:2%;
+	height:50%;
+	width:52.5%;
+	background-color:rgb(31,100,176);
+	text-align:center;
+	display:none;
+	color:white;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	border:2px outset silver;
+	border-bottom:none;
+	}
+.div-regisztracio{
+	
+	border:2px outset silver;
+	border-top:none;
+	margin:0 auto;
+	margin-top:0%;
+	height:50%;
+	width:52.5%;
+	background-color:white;
+	margin-bottom:1.5%;
+	display:none;
+	
+}
+.span_hiba{
+	font: bold 15px  sans-serif;
+	margin-left:1%;
+}
+.div_login_elf{
+	width:50%;
+	margin-left:25%;
+	margin-right:25%;
+	margin-top:2.5%;
+	text-align:center;
+	
+}
+
+
+.proba {
+    position: relative;
+    display: inline-block;
+    
+    
+	font-size:120%;
+    color:red;
+    
+}
+
+.proba .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    border:1px solid black;
+
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the proba */
+    position: absolute;
+    z-index: 1;
+    top: -10%;
+    margin-left:102%;
+	
+    
+}
+.centered{
+	
+	margin-left:25%;
+	
+	
+	
+}
+
+.proba:hover .tooltiptext {
+    visibility: visible;
+	color:black;
+    font-size:70%;
+	}
+	.profil{
+		
+		margin-left:25%;
+		margin-top:-10%;
+	}
+
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#999;margin-left:25%;
+margin-top:-10%;margin-bottom:5%;}
+.tg td{padding:7px 5px;background-color:#F7FDFA;border-bottom:2px solid black;}
+.tg th {padding:10px 5px;background-color:rgb(32, 159, 216);}
+
+
+
+
+
+
+
+
+
+#e_eredmenyek{
+			margin-top:-20%;
+			width:90%;
+			text-align:center;
+			border:3px solid rgb(35, 131, 175);
+			background-color:white;
+			
+}
+#eredmenyek{
+	
+			
+			margin-top:10%;
+			width:45%;
+			margin-left:25%;
+			border:3px solid rgb(35, 131, 175);
+			background-color:white;
+			
+			height:70%;
+
+}
+
+
+
+			
+	
+			
+		section{
+			
+			margin-left: auto;
+			margin-right: auto;
+			
+			margin-top:-12.5%;
+			
+			
+			height:140px;
+			
+			
+			width:50.5%;
+			
+		}
+		
+		#szinezes{
+	
+					background-color:#b7bfb8;
+					
+					border-radius:4px;
+					margin-left:40%;
+					width: 25%;
+					height:27px;
+					
+		}
+		
+
+		#donate {
+			
+			color:black;
+			height:90%;
+			width: 50%;
+			margin:0 auto;	
+			
+			
+			
+		}
+		#donate label span {
+			
+			text-align:center;
+			font-size:20px;
+			display:block;
+			border:1px outset rgb(35, 131, 175);
+			
+			
+			
+		}
+		#donate input:checked + span {
+			
+			
+			color:black;
+			transition: 0.5s;
+			box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+		}
+		
+		
+		#nagydiv{
+			
+			border:3px solid black;
+			width:800px;
+			margin-left:25%;
+		}
+
+
+#donate label {
+	margin-top: 10%;
+    float: left;
+    width:45%;
+    margin:1%; 
+    color:black;
+	background-color:white;
+	
+}
+
+#donate label input {
+    position:absolute;
+    top:-20px;
+}
+
+
+
+#szavazas{
+	
+     width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+#kiiras{
+			
+	
+}
+.probaxxx{
+	
+	font-size:100%;
+}
+.p_csillag{
+	
+	margin-left:25%;
+}
+.x{
+	
+	margin-left:10%;
+}
+
+.y{
+	margin-left:30%;
+}
+#btn_jelsz{	
+	background-color:white;
+	width:35%;
+	float:right;
+	border:none;
+}
+#span_pw{
+	visibility: hidden;
+}
+.input_span{
+	margin-left:30%;
+}
+.szavazz{
+	
+	margin-bottom:2%;
+	text-indent: 1em;
+}
+#span_sz_vissza{
+	
+	float:right;
+	margin-right:5%;
+}
+.table_listak{
+	
+	margin-left:20%;
+	margin-top:-10%;
+	
+}
+.table_listak button{border:1px solid silver;background-color:white;width:100%;border:none;}
+.table_listak th{height:35px;text-align:center;background-color:rgb(32, 159, 216);}
+.table_listak td{height:35px;text-align:center;background-color:white;}
+.szavazatok{display:none;}
+
+.felhasznalok{display:none;}
+.szavazat{display:none;}
+.admin{display:none;}
+.admin label{float:left;margin-left:2%;margin-top:2%;}
+.admin input{float:left;margin-top:2%;}
+.admin_felvitel{margin-left:10%;}
+.form_a_fh{margin-left:5%;}
+
