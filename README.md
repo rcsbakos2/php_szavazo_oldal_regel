@@ -2,4 +2,4 @@ Egyszerű szavazó oldal,ahol egyenlőre csak egy adott témában tud a sikerese
 Majd esetlegesen visszavonni a szavazást és újra leadni a szavazatát.
 Admin fülel is rendelkezik az oldal, de azt még nem fejeztem be teljesen. //01.27.
 
-Törölve //01.29.
+Csak gyors felépítémény,nincs OOP //01.29.
