@@ -1,3 +1,4 @@
+Branchnál le kell nyitni és a másik felületet kell választani.
 Egyszerű szavazó oldal,ahol egyenlőre csak egy adott témában tud a sikeresen regisztrált felhasználó szavazni.
 Majd esetlegesen visszavonni a szavazást és újra leadni a szavazatát.
 Admin fülel is rendelkezik az oldal, de azt még nem fejeztem be teljesen. //01.27.
